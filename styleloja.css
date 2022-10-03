@@ -1,0 +1,39 @@
+body{
+background-color: white;
+font-family: 'Audiowide', cursive;
+}
+
+.logotech{
+width: 200px;
+border-radius: 80px;
+
+}
+
+.empresa{
+    display: flex;
+
+}
+
+div{
+background-image: url(img/backgroungblackleather.jpg);
+display: flex;
+justify-content: center;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.link{
+    display: flex;
+    list-style: none;
+    
+}
+.link li a p{
+    width: 2px;
+}
+.link img{
+    width: 100px;
+    border-radius: 40px;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.logo {
+    width: 118px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+    margin-top: 10px;
+}
+.profile {
+    text-align: center;
+}
+
+.categoria {
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+
+}
+.categoria img{
+    width: 33px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px white;
+}
+.contact-list {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.contact-list li {
+    margin: 10px 20px;
+}
+
+.contact-list li a {
+    background-color: white;
+    color: rosybrown;
+    padding: 10px;
+    display: block;
+    border-radius: 40px;
+    box-shadow: 0 0 10px white;
+    text-decoration: none;
+}
+
+.contact-list li a span {
+color: black;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.social img{
+    width: 40px;
+    box-shadow: 0 0 20px white;
+    border-radius: 40px;
+}
